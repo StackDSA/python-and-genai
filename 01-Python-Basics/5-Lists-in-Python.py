@@ -58,6 +58,18 @@ print(numbers[2:])  # Output: [3, 4, 5]
 print(numbers[::2])  # Output: [1, 3, 5] (every second element) (Last parameter is the step size)
 print(numbers[::-1])  # Output: [5, 4, 3, 2, 1] (reverse order)
 
+
+#Concatenation of lists
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+result = list1 + list2
+print(result)  # Output: [1, 2, 3, 4, 5, 6]
+
+#Copying a list
+original_list = [1, 2, 3]
+new_list = original_list.copy()
+print(new_list)  # Output: [1, 2, 3]
+
 # Iterating over a list
 for num in numbers:
     print(num)  # Output: 1 2 3 4 5 (each number on a new line)
